@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-/* import { Input } from "../../Input";
+import { Input } from "../../Input";
 import logo from "../../img/logo-fv.png";
 import "./Login.css";
 
 export function Login() {
   return (
-    <main>
+    <main className="mainlogin">
       <div id="login" className="login">
         <header>
           <img src={logo} alt="" />
@@ -29,4 +29,4 @@ export function Login() {
       </div>
     </main>
   );
-} */
+} 
